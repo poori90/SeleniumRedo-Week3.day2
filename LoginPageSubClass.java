@@ -12,6 +12,8 @@ public class LoginPageSubClass extends BasePageSuperClass{
 		LoginPageSubClass lp = new LoginPageSubClass();
 		lp.performCommonTasks("LoginSuccessfull");
 		
+		BasePageSuperClass bp = new BasePageSuperClass();
+		bp.performCommonTasks(" BaseClassCommontask");
 	}
 
 }
